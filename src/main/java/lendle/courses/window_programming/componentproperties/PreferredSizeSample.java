@@ -41,6 +41,7 @@ public class PreferredSizeSample extends JPanel{
             PreferredSizeSample c=new PreferredSizeSample();
             //設定 preferredSize 為 50, 50 跟 100, 100 跟 150, 150
             //觀察看看
+            c.setPreferredSize(new Dimension(100, 100));
             /////////////////////////////////////////////
             frame.add(c);
         }
